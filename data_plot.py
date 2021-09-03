@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('../../sample_data/02 Introduction to Pandas/intel.csv', index_col = 'Date', parse_dates = True)
+df = pd.read_csv('intel.csv', index_col = 'Date', parse_dates = True)
 
 #print(df.head())
 

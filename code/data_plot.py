@@ -6,8 +6,8 @@ df = pd.read_csv('../sample_data/intel.csv', index_col = 'Date', parse_dates = T
 #print(df.head())
 
 
-df['Close'].plot()
-plt.axis(('10-10-17', '24-04-18', 30, 60))
-plt.title('Stock Price')
+df['Close'].plot() #plotting value of a specific column 
+plt.axis(('10-10-17', '24-04-18', 30, 60)) #defining axis
+plt.title('Stock Price') #title of plot
 plt.show()
-plt.savefig('stockprice.pdf')
+plt.savefig('stockprice.pdf') #saving plot as pdf

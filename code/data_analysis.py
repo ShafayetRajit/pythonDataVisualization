@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-stock = pd.read_csv('../sample_data/03 Data Analysis/tesla.csv') #open file
+stock = pd.read_csv('../sample_data/tesla.csv') #open file
 
 print(stock.describe()) #prints count, mean, std, 25/50/75%, max
 

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-app_data = pd.read_csv('../sample_data/02 Introduction to Pandas/googleplaystore.csv') #read file
+app_data = pd.read_csv('../sample_data/googleplaystore.csv') #read file
 
 print(app_data)
 
